@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Pricing Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="root_container">
+        <div class="header_section">
+            <div class="logo_container">
+                <div class="logo_icon">b</div>
+            </div>
+            <div class="title_container">
+                <h1 class="main_title">YAY! It's BOGO</h1>
+            </div>
+        </div>
+
+        <div class="pricing_options">
+            <div class="pricing_option">
+                <input type="radio" id="option1" name="pricing" value="1unit" class="radio_input">
+                <label for="option1" class="option_label">
+                    <div class="option_header">
+                        <div class="option_left">
+                            <div class="unit_info">
+                                <span class="unit_count">1 Unit</span>
+                                <span class="unit_type">Standard Price</span>
+                            </div>
+                        </div>
+                        <div class="option_right">
+                            <div class="discount_badge discount_10">10% Off</div>
+                            <div class="price_info">
+                                <span class="current_price">$10.00 USD</span>
+                                <span class="original_price">$24.00 USD</span>
+                            </div>
+                        </div>
+                        <div class="expand_arrow">
+                            <span class="arrow_icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="option_details" style="display: none;">
+                        <div class="details_content">
+                            <div class="product_info_section">
+                                <h4>Product Details</h4>
+                                <ul>
+                                    <li>Single unit purchase</li>
+                                    <li>10% discount applied</li>
+                                    <li>Perfect for trying out the product</li>
+                                    <li>Standard shipping included</li>
+                                </ul>
+                            </div>
+                            <div class="features_section">
+                                <h4>What's Included</h4>
+                                <p>✓ 1x Premium product<br>✓ User manual<br>✓ Warranty card<br>✓ Free support</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="pricing_option popular_option">
+                <div class="most_popular_badge">MOST POPULAR</div>
+                <input type="radio" id="option2" name="pricing" value="2unit" class="radio_input" checked>
+                <label for="option2" class="option_label">
+                    <div class="option_header">
+                        <div class="option_left">
+                            <div class="unit_info">
+                                <span class="unit_count">2 Unit</span>
+                            </div>
+                        </div>
+                        <div class="option_right">
+                            <div class="discount_badge discount_20">20% Off</div>
+                            <div class="price_info">
+                                <span class="current_price">$18.00 USD</span>
+                                <span class="original_price">$24.00 USD</span>
+                            </div>
+                        </div>
+                        <div class="expand_arrow">
+                            <span class="arrow_icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="option_details">
+                        <div class="details_content">
+                            <div class="customization_section">
+                                <div class="size_section">
+                                    <label class="field_label">Size</label>
+                                    <div class="size_options">
+                                        <div class="size_row">
+                                            <span class="size_number">#1</span>
+                                            <select class="size_dropdown">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+                                                <option value="L">L</option>
+                                                <option value="XL">XL</option>
+                                            </select>
+                                        </div>
+                                        <div class="size_row">
+                                            <span class="size_number">#2</span>
+                                            <select class="size_dropdown">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+                                                <option value="L">L</option>
+                                                <option value="XL">XL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="color_section">
+                                    <label class="field_label">Colour</label>
+                                    <div class="color_options">
+                                        <div class="color_row">
+                                            <select class="color_dropdown">
+                                                <option value="Black">Black</option>
+                                                <option value="White">White</option>
+                                                <option value="Red">Red</option>
+                                                <option value="Blue">Blue</option>
+                                            </select>
+                                            <div class="color_preview">
+                                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23333'/%3E%3C/svg%3E" alt="Color preview" class="color_img">
+                                            </div>
+                                        </div>
+                                        <div class="color_row">
+                                            <select class="color_dropdown">
+                                                <option value="Colour">Colour</option>
+                                                <option value="Black">Black</option>
+                                                <option value="White">White</option>
+                                                <option value="Red">Red</option>
+                                                <option value="Blue">Blue</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Best value! Get 2 units with 20% discount and customize each one individually.</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="pricing_option">
+                <input type="radio" id="option3" name="pricing" value="3unit" class="radio_input">
+                <label for="option3" class="option_label">
+                    <div class="option_header">
+                        <div class="option_left">
+                            <div class="unit_info">
+                                <span class="unit_count">3 Unit</span>
+                            </div>
+                        </div>
+                        <div class="option_right">
+                            <div class="discount_badge discount_30">30% Off</div>
+                            <div class="price_info">
+                                <span class="current_price">$24.00 USD</span>
+                                <span class="original_price">$24.00 USD</span>
+                            </div>
+                        </div>
+                        <div class="expand_arrow">
+                            <span class="arrow_icon">▼</span>
+                        </div>
+                    </div>
+                    <div class="option_details" style="display: none;">
+                        <div class="details_content">
+                            <div class="product_info_section">
+                                <h4>Bulk Package Details</h4>
+                                <ul>
+                                    <li>3 units included</li>
+                                    <li>30% maximum discount</li>
+                                    <li>Perfect for sharing or stocking up</li>
+                                    <li>Free express shipping</li>
+                                </ul>
+                            </div>
+                            <div class="features_section">
+                                <h4>Bulk Benefits</h4>
+                                <p>✓ 3x Premium products<br>✓ Extended warranty<br>✓ Priority support<br>✓ Gift wrapping option</p>
+                            </div>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <div class="delivery_total_section">
+            <div class="delivery_info">
+                <span class="delivery_text">Free Delivery</span>
+            </div>
+            <div class="total_info">
+                <span class="total_text">Total : $18.00 USD</span>
+            </div>
+        </div>
+
+        <div class="action_section">
+            <button class="add_to_cart_btn">
+                <span class="btn_icon">+</span>
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="footer_section">
+            <span class="powered_by">@ Powered by Pumper</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
